@@ -2,8 +2,9 @@
 
 AxisCLI is a lightweight, standalone command-line interface for Windows designed to make everyday system tasks faster and more efficient.  
 It provides a streamlined environment for directory navigation, file management, system monitoring, and direct access to native Windows tools — all in a single, consistent interface.
-
+ 
 AxisCLI is built for speed, clarity, and simplicity, giving you essential functionality without unnecessary complexity.
+
 ---
 
 ## Overview
