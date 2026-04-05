@@ -1,6 +1,6 @@
 # AxisCLI
 
-AxisCLI is a high-performance, standalone command-line interface for Windows designed for efficient directory navigation and file system visualization. Developed in pure C using the WinAPI, it is distributed as a compiled binary and does not require any external dependencies.
+AxisCLI is a high-performance, standalone command-line interface for Windows designed for efficient directory navigation and file system visualization. It is distributed as a compiled binary and does not require any external dependencies.
 
 ---
 
