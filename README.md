@@ -25,6 +25,11 @@ The shell includes a built-in help system. Once the shell is running, you can ac
 ### Visual File Classification
 The system automatically color-codes files based on their extension. This allows for immediate visual identification of binaries, source code, documents, and configuration files without manual sorting.
 
+### Universal Command Passthrough
+AxisCLI acts as a powerful wrapper for your system. It natively supports all external programs and CLI tools installed on your Windows machine. 
+* **Full Path Compatibility:** If you have tools like `git`, `python`, `npm`, or `gcc` in your System PATH, you can execute them directly within AxisCLI just like in a standard CMD or PowerShell window.
+* **Seamless Workflow:** Run your compilers, version control, or custom scripts without ever leaving the AxisCLI environment.
+
 ### Terminal Customization
 Users can define a persistent visual theme. Use the integrated 'color' command to set your preferred background and foreground. These settings remain locked and persistent even when the shell displays high-contrast file listings.
 
