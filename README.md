@@ -116,13 +116,15 @@ All rights reserved.
 
 This software is provided as a compiled binary for end use only.
 
-Permission is granted to use the software for personal and non-commercial purposes.  
-Redistribution, modification, or resale of the software is not permitted without explicit permission from the author.
+Permission is granted to use the software for personal and commercial purposes.  
+Redistribution of the software is permitted, provided that this license is included.
+
+Resale of the software on its own is not permitted.
+
+You may not claim this software as your own work.
 
 This software is provided "as is", without warranty of any kind, express or implied.
 
 In no event shall the author be liable for any claim, damages, or other liability.
-
-Reverse engineering, decompilation, or disassembly is not authorized.
 
 Use this software at your own risk.
