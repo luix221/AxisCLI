@@ -37,7 +37,7 @@ Provide essential system functionality in one place without adding unnecessary c
 
 1. Place `axiscli.exe` in any directory  
 2. Run it once  
-3. The application automatically adds itself to your System PATH  
+3. The application automatically adds itself to your User PATH  
 
 After initialization, start it from anywhere: 
 
@@ -105,7 +105,7 @@ You can return to AxisCLI at any time.
 
 ## Important Notes
 
-AxisCLI modifies your System PATH during initialization to allow global access.  
+AxisCLI modifies your User PATH during initialization to allow global access.  
 No other system modifications are performed.
 
 ---
