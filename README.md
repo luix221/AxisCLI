@@ -75,6 +75,21 @@ Direct access to standard Windows utilities and all executables available in Sys
 
 ---
 
+## Script & Execution Handling
+
+AxisCLI provides a flexible way to run Windows scripts (`.bat`, `.ps1`, `.vbs`). You can control whether a script runs inside your current session or in a new environment.
+
+### Execution Modes
+
+| Mode | Command | Execution Context | Use Case |
+| :--- | :--- | :--- | :--- |
+| **Inline** | `myscript.bat` | Runs directly inside AxisCLI | Quick tasks, seeing output in the same window. |
+| **Isolated** | `run myscript.bat` | Opens a new native CMD/PS window | Long-running scripts or tools that need a clean environment. |
+
+* **Batch Files (`.bat`):** Executed via `cmd /c` when called inline.
+* **PowerShell (`.ps1`):** Automatically handled via `powershell -ExecutionPolicy Bypass`.
+* **VBScript (`.vbs`):** Executed via `cscript`.
+
 ## Shell Interoperability
 
 AxisCLI allows switching to other shells without leaving the current context:
