@@ -118,7 +118,8 @@ AxisCLI features a native C/C++ plugin architecture, allowing you to add custom 
 * **Custom Directory:** Use `plugin setdir <path>` to define where your plugins are stored.
 * **Hot Reloading:** Add or update DLLs and use `plugin reload` to refresh the command list without restarting.
 * **Discovery:** Use `plugin list` to view all currently loaded external commands.
-
+* **Capacity:** Supports up to 64 concurrent plugins. This ensures system stability and high performance even with multiple extensions loaded.
+  
 For developers, a dedicated **SDK** (including `axis.h` and examples) is available in the project repository to help you build your own extensions.
 
 ---
