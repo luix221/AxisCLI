@@ -44,6 +44,13 @@ After initialization, start it from anywhere:
 ```bash
 axiscli
 ```
+### Direct Command Execution (Passthrough)
+AxisCLI supports direct command execution from any other terminal (CMD, PowerShell, etc.). This allows you to use AxisCLI's specialized tools without entering the interactive shell:
+```bash
+axiscli hwinfo
+axiscli getip
+axiscli <any-command-or-plugin>
+```
 
 ---
 
