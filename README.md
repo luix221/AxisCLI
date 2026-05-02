@@ -51,8 +51,9 @@ axiscli
 
 AxisCLI includes a built-in help system:
 
-- `help` → list all available commands  
-- typing a command without arguments → shows usage and options  
+- `help` → list all available commands
+- `help -f` or `help --fun` → show secret and entertainment commands
+- typing a command without arguments → shows usage and options
 
 ---
 
