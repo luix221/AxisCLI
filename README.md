@@ -147,6 +147,7 @@ No other system modifications are performed.
 ---
 
 ## License
+#### AxisCLI License – Copyright (c) 2026 luix221
 
 All rights reserved.
 
