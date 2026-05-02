@@ -18,6 +18,10 @@
  * 4. NAMING:
  *    The 'name' field in AxisPluginData defines the command used in the shell.
  *    If the name conflicts with a built-in command, the built-in command takes priority.
+ * 5. LIMITATIONS:
+ *    AxisCLI supports a maximum of 64 concurrently loaded plugins. 
+ *    If this limit is reached, additional DLLs in the plugin directory 
+ *    will be ignored until space is cleared or the session restarts.
  */
 
 #ifndef AXIS_H
