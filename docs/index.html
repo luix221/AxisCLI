@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AxisCLI – Lightweight Windows Shell</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, sans-serif;
+            background: #0d1117;
+            color: #e6edf3;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #1f6feb, #238636);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        h2 {
+            border-left: 4px solid #1f6feb;
+            padding-left: 10px;
+            margin-top: 40px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #1f6feb;
+            color: white;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        .button:hover {
+            background: #388bfd;
+        }
+
+        .card {
+            background: #161b22;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border: 1px solid #30363d;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>AxisCLI</h1>
+    <p>A lightweight, fast, WinAPI-based Windows shell.</p>
+</header>
+
+<div class="container">
+
+    <h2>🚀 Download</h2>
+    <p>
+        <a class="button" href="https://github.com/luix221/AxisCLI/releases">Download Latest Release</a>
+    </p>
+    <p>
+        Source Code:  
+        <a href="https://github.com/luix221/AxisCLI/">https://github.com/luix221/AxisCLI/</a>
+    </p>
+
+    <h2>⭐ What is AxisCLI?</h2>
+    <div class="card">
+        AxisCLI is a modern Windows command-line interface built on the WinAPI.  
+        It focuses on speed, clarity, and simplicity — without the complexity of PowerShell or the limitations of CMD.
+    </div>
+
+    <h2>🔧 Core Features</h2>
+    <div class="card">
+        • Lightweight & standalone (no dependencies)<br>
+        • WinAPI native<br>
+        • SYSTEM elevation support<br>
+        • C/C++ plugin system (hot reload, custom directory)<br>
+        • Hardware & network tools (hwinfo, getip, wifi, etc.)<br>
+        • Script execution (.bat, .ps1, .vbs)<br>
+        • Clean command structure<br>
+        • Built-in help system<br>
+    </div>
+
+    <h2>🧩 Plugin System</h2>
+    <div class="card">
+        AxisCLI supports up to <b>64 plugins</b> via native DLLs.<br><br>
+
+        <b>Set plugin directory:</b><br>
+        <code>plugin setdir C:\AxisPlugins</code><br><br>
+
+        <b>Reload plugins:</b><br>
+        <code>plugin reload</code><br><br>
+
+        <b>List plugins:</b><br>
+        <code>plugin list</code><br><br>
+
+        <b>Run plugin:</b><br>
+        <code>hello</code><br><br>
+
+        Includes:<br>
+        • axis.h (SDK)<br>
+        • example_plugin.c<br>
+        • Full Plugin Guide<br>
+    </div>
+
+    <h2>📘 Documentation</h2>
+    <div class="card">
+        Built-in help system:<br><br>
+        <code>help</code><br>
+        <code>help -f</code><br>
+        <code>&lt;command&gt;</code><br><br>
+
+        Developer docs available in the repository.
+    </div>
+
+    <h2>📄 License</h2>
+    <div class="card">
+        AxisCLI License © 2026 luix221  
+        See the LICENSE file in the repository.
+    </div>
+
+</div>
+
+<footer>
+    AxisCLI – WinAPI-based Windows Shell
+</footer>
+
+</body>
+</html>
