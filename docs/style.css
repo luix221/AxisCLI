@@ -53,6 +53,7 @@ header .tagline {
     display: grid;
     grid-template-columns: repeat(2, 240px);
     justify-content: center;
+    justify-items: center;
     gap: 15px;
     margin: 30px auto 0 auto;
 }
