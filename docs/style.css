@@ -51,7 +51,7 @@ header .tagline {
 /* BUTTONS*/
 .button-grid {
     display: grid;
-    grid-template-columns: repeat(2, 240px);
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     justify-content: center;
     justify-items: center;
     gap: 15px;
