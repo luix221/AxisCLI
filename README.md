@@ -147,21 +147,22 @@ No other system modifications are performed.
 ---
 
 ## License
-#### AxisCLI License – Copyright (c) 2026 luix221
+### AxisCLI License – Copyright (c) 2026 luix221
 
-All rights reserved.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, merge, publish, distribute, and/or sublicense the Software, and
+to sell products that include the Software, subject to the following conditions:
 
-This software is provided as a compiled binary for end use only.
+1. The Software itself may not be sold as a standalone product.
+2. This copyright notice and permission notice shall be included in all copies
+   or substantial portions of the Software.
+3. You may not claim that you created the Software.
 
-Permission is granted to use the software for personal and commercial purposes.  
-Redistribution of the software is permitted, provided that this license is included.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Resale of the software on its own is not permitted.
-
-You may not claim this software as your own work.
-
-This software is provided "as is", without warranty of any kind, express or implied.
-
-In no event shall the author be liable for any claim, damages, or other liability.
-
-Use this software at your own risk.
