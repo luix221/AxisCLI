@@ -24,6 +24,19 @@ body {
 
 .container { max-width: 1100px; margin: 0 auto; padding: 0 30px; }
 
+.links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    justify-content: center;
+    justify-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.links .btn-repo {
+    grid-column: 1 / -1;
+    justify-self: center;
+}
 /* HEADER */
 header {
     background-color: var(--hero-bg);
