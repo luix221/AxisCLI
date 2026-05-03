@@ -37,6 +37,7 @@ body {
     grid-column: 1 / -1;
     justify-self: center;
 }
+
 /* HEADER */
 header {
     background-color: var(--hero-bg);
@@ -62,15 +63,6 @@ header .tagline {
 }
 
 /* BUTTONS*/
-.button-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    justify-content: center;
-    justify-items: center;
-    gap: 15px;
-    margin: 30px auto 0 auto;
-}
-
 .btn {
     display: flex;
     align-items: center;
