@@ -115,7 +115,7 @@ You can return to AxisCLI at any time.
 
 ---
 
-## Plugin System (v2.0.0+)
+## Plugin System
 
 AxisCLI features a native C/C++ plugin architecture, allowing you to add custom commands via DLLs.
 
