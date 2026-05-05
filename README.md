@@ -35,6 +35,10 @@ Provide essential system functionality in one place without adding unnecessary c
 
 ## Quick Start
 
+> [!CAUTION]
+> **Antivirus Note:** Due to low-level system access (hardware monitoring, process control) and the absence of an EV signature, AxisCLI may trigger security alerts. 
+> **Solution:** If blocked, select "Allow on device" in your AV settings or add the file/folder to your exclusions list.
+
 1. Place `axiscli.exe` in any directory  
 2. Run it once  
 3. The application automatically adds itself to your User PATH  
