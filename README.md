@@ -155,7 +155,7 @@ No other system modifications are performed.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to use,
-merge, publish, distribute, and/or sublicense the Software, andto sell
+merge, copy, publish, distribute, and/or sublicense the Software, and to sell
 products that include the Software, subject to the following conditions:
 
 1. The Software itself may not be sold as a standalone product.
