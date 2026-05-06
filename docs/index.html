@@ -229,7 +229,10 @@ axiscli &lt;any-command-or-plugin&gt;</code></pre>
         <h4>Step 1: Set the Plugin Directory</h4>
         <p>AxisCLI needs to know where your .dll files are located. You only need to configure this once, as it is stored in the Windows Registry.</p>
         <ol>
-            <li>Create a folder of your choice (e.g., <code>C:\AxisPlugins</code>).</li>
+            <li>
+  Create a folder of your choice manually or with the command
+  <code>mdir AxisPlugins</code>.
+</li>
             <li>Open AxisCLI.</li>
             <li>Run: <code>plugin setdir C:\AxisPlugins</code> (Wrap in quotes if path has spaces).</li>
         </ol>
