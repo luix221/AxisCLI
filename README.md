@@ -125,6 +125,9 @@ AxisCLI features a native C/C++ plugin architecture, allowing you to add custom 
 * **Capacity:** Supports up to 64 concurrent plugins. This ensures system stability and high performance even with multiple extensions loaded.
   
 For developers, a dedicated **SDK** (including `axis.h` and examples) is available in the project repository to help you build your own extensions.
+> [!WARNING]
+> **Security & Trust**
+> Since plugins utilize the **WinAPI**, they operate with the same permissions as the CLI itself. Always prioritize official Windows or AxisCLI features first. For extensions, we recommend prioritizing **Open Source** projects to ensure transparency. If a plugin is closed-source, ensure it originates from a **verified and trusted developer** before use. Exercise caution with binaries from unknown sources.
 
 ---
 
