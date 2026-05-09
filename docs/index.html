@@ -217,6 +217,18 @@ axiscli &lt;any-command-or-plugin&gt;</code></pre>
     <section id="plugins">
         <h2>Plugin System</h2>
         <p>AxisCLI features a native C/C++ plugin architecture, allowing you to add custom commands via DLLs.</p>
+		<div style="background-color: #fff3cd; border-left: 5px solid #ffecb5; padding: 15px; margin: 20px 0; color: #856404; font-family: sans-serif;">
+	        <strong>⚠️ Security & Trust Notice</strong>
+	        <p style="margin-top: 10px; margin-bottom: 10px;">
+	            Since plugins utilize the <strong>WinAPI</strong>, they operate with the same permissions as AxisCLI itself. 
+	            Always prioritize official Windows or AxisCLI features first. For third-party extensions, we recommend 
+	            prioritizing <strong>Open Source</strong> projects to ensure transparency. 
+	        </p>
+	        <p style="margin-bottom: 0;">
+	            If a plugin is closed-source, only proceed if it originates from a <strong>verified and trusted developer</strong>. 
+	            Exercise caution when executing binaries from unknown sources.
+	        </p>
+	    </div>
         <ul>
             <li><strong>Custom Directory:</strong> Use <code>plugin setdir &lt;path&gt;</code> to define where your plugins are stored.</li>
             <li><strong>Hot Reloading:</strong> Add or update DLLs and use <code>plugin reload</code> to refresh the command list without restarting.</li>
