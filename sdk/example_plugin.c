@@ -1,8 +1,12 @@
 /*
  * example_plugin.c - Enhanced Example Plugin for AxisCLI
  *
- * How to compile (MinGW/GCC):
- * gcc -shared -o hello.dll example_plugin.c
+* How to compile:
+ * * Using Visual Studio (MSVC):
+ * cl /LD /I. example_plugin.c /Fe:hello.dll
+ *
+ * Using Clang (clang-cl):
+ * clang-cl /LD /I. example_plugin.c /Fe:hello.dll
  *
  * How to use:
  * 1. Place the compiled hello.dll in your AxisCLI plugin directory.
