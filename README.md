@@ -4,7 +4,7 @@ AxisCLI is a lightweight, standalone command-line interface for Windows designed
 It provides a streamlined environment for directory navigation, file management, system monitoring, and direct access to native Windows tools — all in a single, consistent interface.
  
 AxisCLI is built for speed, clarity, and simplicity, giving you essential functionality without unnecessary complexity.
-
+###### If you like AxisCLI, consider starring this repository to support the project!
 ---
 
 ## Overview
@@ -18,6 +18,17 @@ AxisCLI focuses on the most common terminal workflows:
 - Network and security utilities  
 
 All functionality is available through a unified command structure while maintaining full compatibility with native Windows tools.
+
+---
+
+## Why AxisCLI?
+- Zero Dependencies: No installations, no Runtimes, no Registry junk. Just download and run.
+- Ultra-Lightweight: Designed to be under 1 MB, ensuring it launches faster than any standard Windows management tool.
+- No Bloat: AxisCLI is built on a minimalist philosophy. It contains no telemetry, no tracking, and no background processes—just the functionality you need.
+- Native Power: Optimized for Windows 10 and 11, providing direct access to essential utilities like hwinfo, getip, and WiFi management tools.
+- Shell-Ready: Use it as your primary shell or leverage its Passthrough Mode to execute specialized commands directly from CMD or PowerShell.
+- Privacy-First: Requires no installation and has no external dependencies, keeping your data and system settings entirely under your control.
+- The Power-User Advantage: CMD and PowerShell are massive, general-purpose frameworks that often require heavy overhead and complex scripting for simple diagnostic tasks. AxisCLI takes a different approach: it is a high-speed, surgical diagnostic shell. While standard shells are built to handle everything (and therefore carry the weight of everything), AxisCLI is built for one purpose—maximum efficiency. It doesn't replace your environment; it fixes the bottleneck where CMD and PowerShell are simply too slow or too complex.
 
 ---
 
