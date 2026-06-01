@@ -140,7 +140,7 @@ For developers, a dedicated **SDK** (including `axis.h` and examples) is availab
 
 ## Technical Requirements
 
-- Windows 64-bit  
+- Windows 10/11 64-bit  
 - Runs inside standard Windows console environments  
 - No external dependencies required  
 
