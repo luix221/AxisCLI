@@ -13,9 +13,9 @@
     <div class="container">
         <h1>AxisCLI</h1>
         <p class="tagline">Lightweight, standalone command-line interface for Windows</p>
-        <div class="badge">Version 2.4.0</div>
+        <div class="badge">Version 3.0.0</div>
         <div class="links">
-            <a href="https://github.com/luix221/AxisCLI/releases/download/v2.4.0/AxisCLI.exe" class="btn">Download AxisCLI</a>
+            <a href="https://github.com/luix221/AxisCLI/releases/download/v3.0.0/AxisCLI.exe" class="btn">Download AxisCLI</a>
             <a href="https://github.com/luix221/AxisCLI/tree/main/sdk" class="btn btn-outline">SDK / Plugins</a>
             <a href="https://github.com/luix221/AxisCLI" class="btn btn-repo">GitHub Repository</a>
         </div>
@@ -114,12 +114,13 @@ axiscli &lt;any-command-or-plugin&gt;</code></pre>
                     <tr><td style="padding: 6px 0;"><code>count</code></td><td>High-speed line and word counter for single files or structures.</td></tr>
                 </table>
 
-                <!-- Category: System -->
+                <!-- Category: System & Executable -->
                 <h4 style="color: #00aaff; margin-top: 30px; display: flex; align-items: center; gap: 10px;">
                     <span>🖥️</span> System & Execution
                 </h4>
                 <table style="width: 100%; border-collapse: collapse; font-size: 0.95em; color: #ccc;">
                     <tr><td style="padding: 6px 0; width: 160px;"><code>run, kill</code></td><td>Directly start new processes or terminate running ones via Name/PID.</td></tr>
+                    <tr><td style="padding: 6px 0;"><code>debug</code></td><td>Process Diagnostics & Profiling Module.</td></tr>
                     <tr><td style="padding: 6px 0;"><code>proclist &lt;limit&gt;</code></td><td>Advanced process monitor showing PIDs, Memory, and Session info.</td></tr>
                     <tr><td style="padding: 6px 0;"><code>uptime</code></td><td>Shows the exact system boot time and total operation duration.</td></tr>
                     <tr><td style="padding: 6px 0;"><code>env</code></td><td>View and manage system/user environment variables on the fly.</td></tr>
@@ -277,7 +278,7 @@ axiscli &lt;any-command-or-plugin&gt;</code></pre>
     <section id="tech">
         <h2>Technical Requirements & Notes</h2>
         <ul>
-            <li><strong>OS:</strong> Windows 64-bit.</li>
+            <li><strong>OS:</strong> Windows 10/11 64-bit.</li>
             <li><strong>Environment:</strong> Runs inside standard Windows console environments.</li>
             <li><strong>Dependencies:</strong> No external dependencies required.</li>
             <li><strong>System Impact:</strong> Modifies User PATH during initialization. No other system modifications are performed.</li>
